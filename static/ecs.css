@@ -6,6 +6,7 @@ html {
     display: flex;
     flex-wrap: nowrap;
     font-size: medium;
+    margin: auto;
 }
 #ibgrades {
     display: flex;
@@ -32,4 +33,10 @@ a:hover {
 }
 li {
     margin-bottom: 20px;
+}
+#navbar {
+    font-size: larger;
+}
+footer {
+    margin-top: 100px;
 }

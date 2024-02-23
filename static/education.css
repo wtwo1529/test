@@ -6,6 +6,7 @@ html {
     display: flex;
     flex-wrap: nowrap;
     font-size: medium;
+    margin: auto;
 }
 #ibgrades {
     display: flex;
@@ -29,4 +30,14 @@ a:hover {
 }
 .subjectscontainer:first-child {
     margin-right: 30px;
+}
+#navbar {
+    font-size: larger;
+}
+footer {
+    margin-top: 100px;
+}
+
+body {
+    line-height: 1.4em
 }

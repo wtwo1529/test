@@ -1,15 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     font-size: 20px;
 }
 
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 1%;
+}
 .container {
     display: flex;
     flex-wrap: nowrap;
     font-size: medium;
+    margin: auto;
 }
 
 a:link, a:visited {
-    color: blue;
+    color: black;
     text-decoration: none;
 }
 a:hover {
@@ -18,4 +29,36 @@ a:hover {
 
 .contactinformation, .navbtns {
     flex-grow: 1;
+}
+
+.navbtns {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#navbar {
+    font-size: larger;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+body {
+    line-height: 1.6em;
+    background-color: aquamarine;
+    color: black;
+}
+
+#contactcontainer {
+    border-top: 3px black solid;
+    border-bottom: 3px black solid;
+    padding: 10px;
+}
+
+.description {
+    margin-left: 3%;
+    margin-right: 3%;
 }
