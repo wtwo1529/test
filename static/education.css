@@ -1,0 +1,32 @@
+html {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: medium;
+}
+#ibgrades {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+}
+a:link, a:visited {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.contactinformation, .navbtns {
+    flex-grow: 1;
+}
+.subjectscontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.subjectscontainer:first-child {
+    margin-right: 30px;
+}

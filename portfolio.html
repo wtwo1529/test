@@ -2,24 +2,37 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="static/portfolio.css">
         <title>Simple Portfolio</title>
     </head>
     <body>
         <header>
             <h1>Simple Portfolio</h1>
         </header>
-        <div id="contactinformation">
-            <p><strong>Phone Number:</strong> +44-7536-277-880</p>
-            <p><strong>Home Address:</strong> 108.8, A2/A3, Scape Canada Water, 1-7 Mulberry Walk</p>
-            <p><strong>Email:</strong>003axelw@gmail.com</p>
+        <div class="container">
+            <p class="contactinformation"><strong>Phone Number:</strong> +44-7536-277-880</p>
+            <p class="contactinformation"><strong>Home Address:</strong> 108.8, A2/A3, Scape Canada Water, 1-7 Mulberry Walk</p>
+            <p class="contactinformation"><strong>Email:</strong>003axelw@gmail.com</p>
         </div>
-        <div class="buttons">
+        <div class="container" style="font-size: larger;">
             <nav>
-                <button>Education</button>
-                <button>Achievements</button>
-                <button>Extracurricular Activities</button>
+                <a class="navbtns" href="education.html">Education</a>
+                <a class="navbtns" href="achievements.html">Achievements</a>
+                <a class="navbtns" href="ecs.html">Extracurricular Activities</a>
+                <a class="navbtns" href="projects.html">Projects</a>
             </nav>
+        </div>
+        <div class="description">
+            <p>
+                I've always been interested in how computers and software work, as a variety of aspects of life involve the presence of either or both, and my background in video games. Furthermore, my journey through IB physics allowed me to appreciate and enjoy the act of logical problem-solving. However, my interest in computer science was only sparked after I had completed my IB diploma, when I did Harvard's Introduction to Computer Science course (CS50) as well as the University of Michigan's Python for Everybody (PY4E). I enjoyed the boundless creative potential of programming, the intellectual challenges, and the representation of programming by the media and culture, such as in Mr. Robot, which sparked my interest.
+
+                I have slightly dabbled in cryptography, ethical hacking, and game development. I found these topics fascinating because of my background in video games, and curiosity in understanding how secure information can be forcibly accessed. However, I haven't delved too deeply into these topics as I believed it was more important to focus on the fundamentals of computer science. So instead, I mostly spent my time learning about data structures and algorithms, which kindled my interest in competitive programming. I've found solving problems on LeetCode, Hackerrank, and Project Euler quite engaging and fun because of the critical thinking and problem-solving skills necessary to devise solutions. Tackling coding problems and assignments from CS50 and PY4E taught me the importance of persistence when solving challenging tasks, and research, as there are numerous libraries and functions that can be utilized, different approaches, code optimizations, and so forth. Moreover, I found improving the time complexity of my code for the aforementioned problems to be highly captivating, as it allows me to explore other approaches to problem-solving. Like, for example, I found it intriguing how you could use two variables to iterate over an array because you could solve problems with a single pass instead of multiple iterations using a sorting algorithm or a while/for loop.
+
+                Recently, I tackled a challenging problem where I had to iterate over an array of integers and return a 2D array containing arrays of distinct integers from the initial array. To solve this problem, I iterated over the initial array from right to left and passed the integers into a hashmap that would reset after each iteration. This would allow for a conditional that could check if the iterable was in the hashmap, and then either continue to the next element or continue, append the element to a local list, and pop the element. After the iteration, the local list would be appended to a global list. This process would repeat until the initial array was empty. After solving the problem, I wanted to find out ways I could improve the time complexity of my solution. Through research, I found that a set could be used instead of a dictionary as it could act as a hashmap through the fact that it had O(1) look-up time, but only had keys instead of key-value pairs. Having only a key meant greater efficiency as I only needed to check if the iterable was in the hash map.
+
+                I thoroughly believe that my background in computer science will have built up a strong foundation that will help me succeed in university, especially in topics such as object-oriented programming, imperative programming, and lower-level knowledge of memory and pointers. My journey in computer science has allowed me to strengthen my critical thinking and problem-solving skills, in addition to my attraction towards the subject. Furthermore, I am eager to further strengthen my fundamentals in computer science at university and delve deeper as well as explore more advanced fields of computer science like cyber security, web and game development, artificial intelligence, and machine learning.
+
+            </p>
         </div>
     </body>
 </html>
